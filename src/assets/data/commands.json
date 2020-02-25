@@ -1,0 +1,417 @@
+[
+  [
+      "General",
+      [
+          {
+              "name": "ping",
+              "aliases": "",
+              "description": "Test the bot's reaction time"
+          },
+          {
+              "name": "commands",
+              "aliases": "",
+              "description": "Returns this command list."
+          },
+          {
+              "name": "invite",
+              "aliases": "",
+              "description": "Link to invite the bot to your server."
+          },
+          {
+              "name": "say",
+              "aliases": "",
+              "description": "Make me say stuff!"
+          },
+          {
+              "name": "quote",
+              "aliases": "",
+              "description": "Quote various xat users"
+          },
+          {
+              "name": "stefan",
+              "aliases": "",
+              "description": "Memes of my cuckold stalker!"
+          },
+          {
+              "name": "phin",
+              "aliases": "",
+              "description": "Memes that got Biggot banned from my server!"
+          },
+          {
+              "name": "youtube",
+              "aliases": "yt",
+              "description": "Searches a youtube video and returns link."
+          },
+          {
+              "name": "google",
+              "aliases": "",
+              "description": "Returns last 5 google seach results."
+          },
+          {
+              "name": "eightball",
+              "aliases": "8 / 8ball",
+              "description": "Have your question answered by Phan."
+          },
+          {
+              "name": "calc",
+              "aliases": "",
+              "description": "The bot does quick mafs for you."
+          },
+          {
+              "name": "fortune",
+              "aliases": "",
+              "description": "Interested in a fortune cookie?"
+          },
+          {
+              "name": "remindme",
+              "aliases": "reminder / remind",
+              "description": "Set a ping reminder in x hour, minutes or seconds."
+          },
+          {
+              "name": "horoscope",
+              "aliases": "",
+              "description": "Consult your daily horoscope reading."
+          },
+          {
+              "name": "lieornot",
+              "aliases": "lie",
+              "description": "I'll tell you if that's a lie or not!"
+          },
+          {
+              "name": "question",
+              "aliases": "q",
+              "description": "Return a random question"
+          },
+          {
+              "name": "meme",
+              "aliases": "",
+              "description": "Send random memes from reddit."
+          },
+          {
+              "name": "weather",
+              "aliases": "",
+              "description": "Display the weather in a city."
+          },
+          {
+              "name": "emoji",
+              "aliases": "",
+              "description": "Emoji searching!"
+          }
+      ]
+  ],
+  [
+      "Moderator Commands",
+      [
+          {
+              "name": "gag",
+              "aliases": "",
+              "description": ""
+          },
+          {
+              "name": "mute",
+              "aliases": "",
+              "description": ""
+          },
+          {
+              "name": "hush",
+              "aliases": "",
+              "description": ""
+          },
+          {
+              "name": "naughtystep",
+              "aliases": "ns",
+              "description": ""
+          },
+          {
+              "name": "redcard",
+              "aliases": "rc",
+              "description": ""
+          }
+      ]
+  ],
+  [
+      "Server",
+      [
+          {
+              "name": "nick",
+              "aliases": "",
+              "description": ""
+          },
+          {
+              "name": "messages",
+              "aliases": "",
+              "description": "Check your current message count"
+          },
+          {
+              "name": "top",
+              "aliases": "",
+              "description": ""
+          },
+          {
+              "name": "dunce",
+              "aliases": "",
+              "description": "Toss a dunce cap onto a user of your choosing"
+          },
+          {
+              "name": "undunce",
+              "aliases": "",
+              "description": "Free a user from the tourment of being dunced."
+          },
+          {
+              "name": "jumblejinx",
+              "aliases": "",
+              "description": "Jumble up a target's messages"
+          },
+          {
+              "name": "hangjinx",
+              "aliases": "",
+              "description": "Turn your target's messages into a game of hangman"
+          },
+          {
+              "name": "spacejinx",
+              "aliases": "",
+              "description": "Give your target's messages some random spaces"
+          }
+      ]
+  ],
+  [
+      "Xat Simulator",
+      [
+          {
+              "name": "auction",
+              "aliases": "",
+              "description": "Compete in bidding wars for a chance at a lower ID!"
+          },
+          {
+              "name": "xatspace",
+              "aliases": "profile / xs",
+              "description": "Display your xat profile"
+          },
+          {
+              "name": "edit",
+              "aliases": "",
+              "description": "Customize your profile using this command"
+          },
+          {
+              "name": "xats",
+              "aliases": "points / wallet",
+              "description": "Display your xat wallet."
+          },
+          {
+              "name": "value",
+              "aliases": "",
+              "description": "Display your power value."
+          },
+          {
+              "name": "daily",
+              "aliases": "",
+              "description": "Daily 100 xat claim."
+          },
+          {
+              "name": "work",
+              "aliases": "",
+              "description": "Get compensate in exchange for a little job"
+          },
+          {
+              "name": "leaderboard",
+              "aliases": "lb",
+              "description": "Top 10 richest xat users."
+          },
+          {
+              "name": "marry",
+              "aliases": "",
+              "description": "Marry a target user."
+          },
+          {
+              "name": "bff",
+              "aliases": "",
+              "description": "BFF a target user."
+          },
+          {
+              "name": "divorce",
+              "aliases": "",
+              "description": "Divorce your current partner."
+          },
+          {
+              "name": "transfer",
+              "aliases": "",
+              "description": "Donate your xats to another user."
+          },
+          {
+              "name": "xd",
+              "aliases": "",
+              "description": "Convert your xats into days"
+          },
+          {
+              "name": "buy",
+              "aliases": "shop / store",
+              "description": "Purchase a power straight from the store."
+          },
+          {
+              "name": "sell",
+              "aliases": "",
+              "description": "Sell a power back to the store."
+          },
+          {
+              "name": "trade",
+              "aliases": "",
+              "description": "Offer to exchange xats and powers with another user."
+          },
+          {
+              "name": "gamble",
+              "aliases": "",
+              "description": "Feeling lucky? Gamble for a chance to win here"
+          },
+          {
+              "name": "powers",
+              "aliases": "p",
+              "description": "Display a list of currently owned powers."
+          },
+          {
+              "name": "has",
+              "aliases": "",
+              "description": "View a user's power status"
+          },
+          {
+              "name": "toggle",
+              "aliases": "power",
+              "description": "Toggle the display of a power on or off."
+          },
+          {
+              "name": "lottery",
+              "aliases": "lotto",
+              "description": "Participate in the xat lottery for a chance to win big."
+          },
+          {
+              "name": "foe",
+              "aliases": "",
+              "description": "Burn bridges with this command and set users as your foe"
+          },
+          {
+              "name": "gift",
+              "aliases": "",
+              "description": "Show your appreciation for a friend with a gift"
+          },
+          {
+              "name": "gifts",
+              "aliases": "",
+              "description": "View your gift current inventory"
+          },
+          {
+              "name": "zoom",
+              "aliases": "",
+              "description": "Zoom in on a user's Discord avatar"
+          },
+          {
+              "name": "tickle",
+              "aliases": "",
+              "description": "Setup a tickle notification to know when your word is said"
+          }
+      ]
+  ],
+  [
+      "Xatech",
+      [
+          {
+              "name": "x2d",
+              "aliases": "",
+              "description": "Convert xats to days."
+          },
+          {
+              "name": "dx",
+              "aliases": "",
+              "description": "Convert days to xats."
+          },
+          {
+              "name": "id",
+              "aliases": "",
+              "description": "Get the ID of a registered user."
+          },
+          {
+              "name": "regname",
+              "aliases": "reg",
+              "description": "Get the regname associated to a user's ID."
+          },
+          {
+              "name": "find",
+              "aliases": "",
+              "description": "Find a user from their regname or id."
+          },
+          {
+              "name": "xatstocash",
+              "aliases": "xats2cash",
+              "description": "Convert xats to a dollar amount."
+          },
+          {
+              "name": "cashtoxats",
+              "aliases": "cash2xats",
+              "description": "Convert dollars to a xat amount."
+          },
+          {
+              "name": "whatis",
+              "aliases": "",
+              "description": "View the status of a power or smiley."
+          },
+          {
+              "name": "chatprice",
+              "aliases": "grouptransfer / gt",
+              "description": "Get price updates for a chat group."
+          },
+          {
+              "name": "chatinfo",
+              "aliases": "",
+              "description": "Display information of a chat group."
+          },
+          {
+              "name": "xatsearch",
+              "aliases": "",
+              "description": "Return xat search results."
+          },
+          {
+              "name": "price",
+              "aliases": "",
+              "description": "Get the price of a power."
+          },
+          {
+              "name": "promoted",
+              "aliases": "promo",
+              "description": "Display a list of currently promoted chats by language."
+          },
+          {
+              "name": "popular",
+              "aliases": "",
+              "description": "Display a list of the most popular chats by language."
+          },
+          {
+              "name": "featured",
+              "aliases": "",
+              "description": "Display a list of featured chats by language."
+          },
+          {
+              "name": "supported",
+              "aliases": "",
+              "description": "Display a list of the most supported chats by language."
+          },
+          {
+              "name": "latest",
+              "aliases": "",
+              "description": "Show information of the most recently released power."
+          },
+          {
+              "name": "shortname",
+              "aliases": "snc / sn",
+              "description": "Lookup the price of a shortname."
+          },
+          {
+              "name": "userinfo",
+              "aliases": "",
+              "description": "Displays xat information of a user."
+          },
+          {
+              "name": "vols",
+              "aliases": "",
+              "description": "Get a list of the current xat Volunteers."
+          }
+      ]
+  ]
+]

@@ -1,0 +1,143 @@
+* {
+  transition:all 1.0s ease;
+}
+
+.tabcontent {
+  margin-top: 20px;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+/* Style the tab */
+.tab {
+  float: left;
+  color: #1d2127;
+  border: 1px solid #eee;
+  background-color: #ccc;
+  width: 15%;
+  height: 98%;
+}
+/* Style the buttons inside the tab */
+.tab button {
+  display: block;
+  background-color: inherit;
+  color: #fff;
+  padding: 22px 16px;
+  width: 100%;
+  border: none;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 17px;
+}
+/* Change background color of buttons on hover */
+.tab button:hover {
+  color: #fff;
+  background-color: #fff;
+}
+/* Create an active/current "tab button" class */
+.tab button.active {
+  color: #fff;
+  background-color: #fff;
+}
+/* Style the tab content */
+.tabcontent {
+  border-left: none;
+  height: auto;
+}
+/* Table Style */
+table.steelBlueCols {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  background-color: #fff;
+  width: 100%;
+  text-align: left;
+  height: auto;
+}
+table.steelBlueCols td, table.steelBlueCols th {
+  border: 1px solid #ccc;
+  padding: 5px 10px;
+}
+table.steelBlueCols tbody td {
+  font-size: 12px;
+  color: #1d2127;
+}
+  table.steelBlueCols tr:nth-child(even) {
+  background: #eee;
+}
+table.steelBlueCols thead {
+  color: #fff;
+  background: #1976D2;
+}
+table.steelBlueCols thead th {
+  font-size: 15px;
+  font-weight: bold;
+  color: #FFFFFF;
+  text-align: left;
+  border-left: 2px solid #fff;
+}
+table.steelBlueCols thead th:first-child {
+  border-left: none;
+}
+table.steelBlueCols tfoot td {
+  font-size: 13px;
+}
+table.steelBlueCols tfoot .links {
+  text-align: right;
+}
+table.steelBlueCols tfoot .links a{
+  display: inline-block;
+  background: #FFFFFF;
+  color: #398AA4;
+  padding: 2px 8px;
+  border-radius: 5px;
+}
+
+h1 {
+background-color: #ccc;
+padding: 15px;
+border: 1px solid #fff;
+}
+
+.accordion {
+  background-color: #EEEEEE;
+  color: #000;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: #1976D2;
+  color: #fff;
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #EEEEEE;
+  padding: 10px;
+}
+
+.arrow-down {
+  float: right;
+  border: solid #ccc;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+.cmdgroup {
+  margin-bottom: 10px;
+}
