@@ -158,6 +158,31 @@
     color: #125699;
   }
 
+  .primary {
+    color: white;
+    background-color: #36393F;
+    padding: 25px;
+    border-radius: 15px;
+  }
+
+  .primary i {
+    color: cyan;
+    font-style: normal;
+  }
+
+  .primary h3 {
+    color: fff;
+    background-color: #1976d2;
+    padding: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .primary img {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
   .terminal {
     position: relative;
     width: 80%;
@@ -292,14 +317,14 @@
 <!-- Toolbar -->
 <div class="toolbar" role="banner">
   <img src= "assets/images/xat-logo.png" height="35px" />
-  <span>FEXBot</span>
+  <span>xat Bot</span>
 </div>
 
 <div class="content" role="main">
 
   <!-- Resources -->
   <h2>Commands</h2>
-  <p>Here is a list of commands you can use:</p>
+  <p>Here is a list of commands you can use</p>
 
   <div class="tabcontent container">
     <div class="cmdgroup" *ngFor="let cog of commands" (click)="accClick($event.target)">
@@ -329,13 +354,49 @@
   <h2>Guide</h2>
   <p>What do you want to do next with the bot?</p>
 
-  <div class="card-container">
-    <!-- Placeholder content -->
+  <div style="display:block" class="primary card-container">
+    <h3>> 1. Setup the bot for your server</h3>
+    <p>
+      The Setup process lets you:
+    </p>
+    <ul>
+      <li>Toggle whether or not you want xat IDs in people's names</li>
+      <li>Toggle whether or not you want toon names for new users</li>
+      <li>Set an announcement channel to receive new bot updates.</li>
+    </ul>
+    <img src="assets/images/setup/1.png"/>
+    <ul>
+      <li>Create any roles required for powers to function (Blueman, Pink, Gagged, Banished, etc)</li>
+    </ul>
+    <img src="assets/images/setup/2.png"/>
+
+    <h3>> 2. Acquire xats</h3>
+    <p>The xat collecting process is straight forward, for every message you send you will be granted 1-5 xats on a cooldown (5-10 if you have days).</p>
+    <p>In addition to this, you can also use the <i>!daily</i> command for 100 xats (+25 per daily streak) every 23 hours.<br></p>
+    <img src="assets/images/1.png"/>
+    <p>Still not enough for you? The <i>!work</i> command can help boost your xat returns by 50-70 every 3 hours.</p>
+    <img src="assets/images/2.png"/>
+
+    <h3>> 3. Buy powers</h3>
+    <p>Powers transfer from server to server and work depending on if the server owner has properly setup the bot. To buy a power, simply <i>!buy</i> or <i>!store</i> to view the current selection. <br/>
+    Note: There are multiple pages which can be accessed through <i>!store 2, 3, etc</i>.</p>
+    <img src="assets/images/3.png"/>
+    <p>If there is a role associated to a power and it has been setup on your current server, you can use the <i>!toggle</i> command to enable it, i.e: <i>!toggle Blueman</i></p>
+
+    <h3>> 4. Flex your profile</h3>
+    <p>You can create and manage your very own little xatspace, complete with customizations such as number of gifts you own, xats and current marriage/BFF using the <i>!profile</i> command.</p>
+    <img src="assets/images/4.png"/>
+    <p>To update your background, description or colors use <i>!edit</i>.</p>
+
+    <h3>> 5. Explore the rest of the commands!</h3>
+    <p>The xat bot attempts to re-create the xat experience on Discord, many of the commands will feel familiar if you've used the website! Scroll up and have a look - specifically at the <i>"xat Simulator"</i> section to see what's available to you.</p>
   </div>
 
   <!-- Links -->
+  <h2>Help</h2>
+  <p>Can't figure out how the bot works? Need to suggest new features? Wanna find more servers using the xat Bot?</p>
   <div class="card-container">
-    <!-- Placeholder content -->
+    <a href="https://discord.gg/aezJd3U"><img src="https://discordapp.com/api/guilds/341634287876964352/embed.png?style=banner4"></a>
   </div>
 
   <!-- Footer -->
